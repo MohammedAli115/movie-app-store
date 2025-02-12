@@ -8,7 +8,7 @@ export default function Search() {
         setSearch(e.target.value);
     };
     useEffect(() => {
-        fetch(`http://www.omdbapi.com/?s=${search}&apikey=79d6f77e`)
+        fetch(`https://www.omdbapi.com/?s=${search}&apikey=79d6f77e`)
             .then(response => response.json())
             .then(data => setMovies(data.Search || []));
     }, [search]);
