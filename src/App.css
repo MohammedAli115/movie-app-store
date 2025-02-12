@@ -1,0 +1,19 @@
+body {
+    font-family: "Playfair Display", serif !important;
+    background-color: #ccc !important;
+}
+.carousel-item img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px !important;
+
+}
+@media (min-width : 767px) {
+    .carousel-item img {
+        height: 85vh;
+    }
+}
+.form-control:focus {
+    border: none !important;
+    outline:none !important;
+    /* padding: 1000px !important; */
+}
